@@ -1,0 +1,1 @@
+export {UINoty} from './noty';
