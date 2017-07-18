@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img width=100% src="ng-noty-logo.png">
+    <img src="ng-noty-logo.png">
   </a>
 </p>
 
