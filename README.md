@@ -11,7 +11,6 @@
 import {Component} from '@angular/core';
 import {UINoty} from 'ng-noty';
 
-
 @Component({
   selector: 'ng-noty-component-example',
   template: `
@@ -20,7 +19,7 @@ import {UINoty} from 'ng-noty';
     </button>
   `,
 })
-export class SnackBarComponentExample {
+export class NgNotyComponentExample {
   constructor(public ngNoty: UINoty) {}
 
   openNgNoty() {
