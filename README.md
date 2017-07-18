@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="#">
+    <img width=100% src="ng-noty-logo.png">
+  </a>
+</p>
+
 # ng-noty
 
 > **`ng-noty`** is a service for displaying notifications.
