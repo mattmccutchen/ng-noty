@@ -15,7 +15,7 @@
 
 ```typescript
 import {Component} from '@angular/core';
-import {UINoty} from 'ng-noty';
+import {NgNoty, NotyOptions} from "ng-noty";
 
 @Component({
   selector: 'ng-noty-component-example',
@@ -26,12 +26,12 @@ import {UINoty} from 'ng-noty';
   `,
 })
 export class NgNotyComponentExample {
-  constructor(public ngNoty: UINoty) {}
+  constructor(public ngNoty: NgNoty) {}
 
   openNgNoty() {
-    this.ngNoty.open({
+    this.ngNoty.create(<NotyOptions>{
         text: 'Some notification text'
-    });
+    }).show();
   }
 }
 ```
