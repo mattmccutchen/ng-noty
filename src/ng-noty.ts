@@ -18,4 +18,8 @@ export class NgNoty {
     setMaxVisible(count: number, name?: string) {
         Noty.setMaxVisible(count, name);
     }
+
+    button(text: string, classNames: string, cb: Function, attributes?: any) {
+        return Noty.button(text, classNames, cb, attributes);
+    }
 }
